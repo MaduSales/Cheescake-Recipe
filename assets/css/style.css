@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-git i
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -32,6 +32,7 @@ main {
 
 img {
   width: 100%;
+  margin-block: 3.2rem;
 }
 
 h1,
@@ -49,11 +50,16 @@ li,
 strong {
   font-size: 1.4rem;
   line-height: 1.8rem;
+  text-align: justify;
 }
 
 ul,
 ol{
   padding-left: 2.4rem;
+}
+
+ul{
+  margin-bottom: 3.2rem;
 }
 
 button {
@@ -66,5 +72,9 @@ button {
   padding: 0.8rem 1.2rem;
 
   border-radius: 0.6rem;
-  margin-top: 1.8rem;
+  margin-top: 3.2rem;
+}
+
+@media (max-width: 460px){
+
 }
